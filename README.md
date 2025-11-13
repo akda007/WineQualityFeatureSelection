@@ -38,7 +38,7 @@ Usamos o dataset "Wine Quality" (proveniente do UCI, disponível no Kaggle), que
 Para instalar as dependências:
 
 ```bash
-pip install pandas scikit-learn streamlit
+pip install -r requirements.txt
 ```
 
 ## 5\. Como Executar
