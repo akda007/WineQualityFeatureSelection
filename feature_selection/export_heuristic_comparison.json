@@ -1,0 +1,144 @@
+{
+  "bnb_optimal": {
+    "features": [
+      "volatile acidity",
+      "alcohol"
+    ],
+    "feature_count": 2,
+    "r2_score": 0.33447282205604667
+  },
+  "greedy_heuristic_steps": [
+    {
+      "feature_count": 1,
+      "r2_score": 0.23509059834166246,
+      "features": [
+        "alcohol"
+      ]
+    },
+    {
+      "feature_count": 2,
+      "r2_score": 0.33447282205604645,
+      "features": [
+        "alcohol",
+        "volatile acidity"
+      ]
+    },
+    {
+      "feature_count": 3,
+      "r2_score": 0.35258520331060617,
+      "features": [
+        "alcohol",
+        "volatile acidity",
+        "sulphates"
+      ]
+    },
+    {
+      "feature_count": 4,
+      "r2_score": 0.36050860207830704,
+      "features": [
+        "alcohol",
+        "volatile acidity",
+        "sulphates",
+        "total sulfur dioxide"
+      ]
+    },
+    {
+      "feature_count": 5,
+      "r2_score": 0.3667541944425402,
+      "features": [
+        "alcohol",
+        "volatile acidity",
+        "sulphates",
+        "total sulfur dioxide",
+        "chlorides"
+      ]
+    },
+    {
+      "feature_count": 6,
+      "r2_score": 0.37338919403150317,
+      "features": [
+        "alcohol",
+        "volatile acidity",
+        "sulphates",
+        "total sulfur dioxide",
+        "chlorides",
+        "pH"
+      ]
+    },
+    {
+      "feature_count": 7,
+      "r2_score": 0.37408514702874196,
+      "features": [
+        "alcohol",
+        "volatile acidity",
+        "sulphates",
+        "total sulfur dioxide",
+        "chlorides",
+        "pH",
+        "free sulfur dioxide"
+      ]
+    },
+    {
+      "feature_count": 8,
+      "r2_score": 0.374311747568023,
+      "features": [
+        "alcohol",
+        "volatile acidity",
+        "sulphates",
+        "total sulfur dioxide",
+        "chlorides",
+        "pH",
+        "free sulfur dioxide",
+        "citric acid"
+      ]
+    },
+    {
+      "feature_count": 9,
+      "r2_score": 0.37458474651977614,
+      "features": [
+        "alcohol",
+        "volatile acidity",
+        "sulphates",
+        "total sulfur dioxide",
+        "chlorides",
+        "pH",
+        "free sulfur dioxide",
+        "citric acid",
+        "density"
+      ]
+    },
+    {
+      "feature_count": 10,
+      "r2_score": 0.37464369209993953,
+      "features": [
+        "alcohol",
+        "volatile acidity",
+        "sulphates",
+        "total sulfur dioxide",
+        "chlorides",
+        "pH",
+        "free sulfur dioxide",
+        "citric acid",
+        "density",
+        "residual sugar"
+      ]
+    },
+    {
+      "feature_count": 11,
+      "r2_score": 0.37465630386671356,
+      "features": [
+        "alcohol",
+        "volatile acidity",
+        "sulphates",
+        "total sulfur dioxide",
+        "chlorides",
+        "pH",
+        "free sulfur dioxide",
+        "citric acid",
+        "density",
+        "residual sugar",
+        "fixed acidity"
+      ]
+    }
+  ]
+}

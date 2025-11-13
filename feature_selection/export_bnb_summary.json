@@ -1,0 +1,36 @@
+{
+  "final_solution": {
+    "features": [
+      "volatile acidity",
+      "alcohol"
+    ],
+    "feature_count": 2,
+    "r2_score": 0.33447282205604667
+  },
+  "execution_metrics": {
+    "total_time_seconds": 0.5747201442718506,
+    "nodes_visited": 411,
+    "solutions_found_count": 2,
+    "r2_goal": 0.3
+  },
+  "solutions_timeline": [
+    {
+      "features": [
+        "total sulfur dioxide",
+        "pH",
+        "sulphates",
+        "alcohol"
+      ],
+      "feature_count": 4,
+      "score": 0.3065840799578875
+    },
+    {
+      "features": [
+        "volatile acidity",
+        "alcohol"
+      ],
+      "feature_count": 2,
+      "score": 0.33447282205604667
+    }
+  ]
+}

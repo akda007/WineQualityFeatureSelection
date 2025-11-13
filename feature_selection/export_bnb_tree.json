@@ -1,0 +1,6998 @@
+[
+  {
+    "id": 0,
+    "parent_id": -1,
+    "decision": "RAIZ",
+    "features": [],
+    "feature_count": 0,
+    "score": null,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 1,
+    "parent_id": 0,
+    "decision": "NÃO fixed acidity",
+    "features": [],
+    "feature_count": 0,
+    "score": null,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 2,
+    "parent_id": 1,
+    "decision": "NÃO volatile acidity",
+    "features": [],
+    "feature_count": 0,
+    "score": null,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 3,
+    "parent_id": 2,
+    "decision": "NÃO citric acid",
+    "features": [],
+    "feature_count": 0,
+    "score": null,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 4,
+    "parent_id": 3,
+    "decision": "NÃO residual sugar",
+    "features": [],
+    "feature_count": 0,
+    "score": null,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 5,
+    "parent_id": 4,
+    "decision": "NÃO chlorides",
+    "features": [],
+    "feature_count": 0,
+    "score": null,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 6,
+    "parent_id": 5,
+    "decision": "NÃO free sulfur dioxide",
+    "features": [],
+    "feature_count": 0,
+    "score": null,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 7,
+    "parent_id": 6,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [],
+    "feature_count": 0,
+    "score": null,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 8,
+    "parent_id": 7,
+    "decision": "NÃO density",
+    "features": [],
+    "feature_count": 0,
+    "score": null,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 9,
+    "parent_id": 8,
+    "decision": "NÃO pH",
+    "features": [],
+    "feature_count": 0,
+    "score": null,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 10,
+    "parent_id": 9,
+    "decision": "NÃO sulphates",
+    "features": [],
+    "feature_count": 0,
+    "score": null,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 11,
+    "parent_id": 10,
+    "decision": "NÃO alcohol",
+    "features": [],
+    "feature_count": 0,
+    "score": null,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 12,
+    "parent_id": 10,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "alcohol"
+    ],
+    "feature_count": 1,
+    "score": 0.23509059834166246,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 13,
+    "parent_id": 9,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "sulphates"
+    ],
+    "feature_count": 1,
+    "score": 0.06641457807350903,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 14,
+    "parent_id": 13,
+    "decision": "NÃO alcohol",
+    "features": [
+      "sulphates"
+    ],
+    "feature_count": 1,
+    "score": 0.06641457807350903,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 15,
+    "parent_id": 13,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 2,
+    "score": 0.2804082151554891,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 16,
+    "parent_id": 8,
+    "decision": "INCLUIR pH",
+    "features": [
+      "pH"
+    ],
+    "feature_count": 1,
+    "score": 0.0027513207084431945,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 17,
+    "parent_id": 16,
+    "decision": "NÃO sulphates",
+    "features": [
+      "pH"
+    ],
+    "feature_count": 1,
+    "score": 0.0027513207084431945,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 18,
+    "parent_id": 17,
+    "decision": "NÃO alcohol",
+    "features": [
+      "pH"
+    ],
+    "feature_count": 1,
+    "score": 0.0027513207084431945,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 19,
+    "parent_id": 17,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 2,
+    "score": 0.26263797645908205,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 20,
+    "parent_id": 16,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.06643695214408174,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 21,
+    "parent_id": 20,
+    "decision": "NÃO alcohol",
+    "features": [
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.06643695214408174,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 22,
+    "parent_id": 20,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "pH",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.29564284276831443,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 23,
+    "parent_id": 7,
+    "decision": "INCLUIR density",
+    "features": [
+      "density"
+    ],
+    "feature_count": 1,
+    "score": 0.04143879438342479,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 24,
+    "parent_id": 23,
+    "decision": "NÃO pH",
+    "features": [
+      "density"
+    ],
+    "feature_count": 1,
+    "score": 0.04143879438342479,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 25,
+    "parent_id": 24,
+    "decision": "NÃO sulphates",
+    "features": [
+      "density"
+    ],
+    "feature_count": 1,
+    "score": 0.04143879438342479,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 26,
+    "parent_id": 25,
+    "decision": "NÃO alcohol",
+    "features": [
+      "density"
+    ],
+    "feature_count": 1,
+    "score": 0.04143879438342479,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 27,
+    "parent_id": 25,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 2,
+    "score": 0.23853171113077454,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 28,
+    "parent_id": 24,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.11649031558280087,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 29,
+    "parent_id": 28,
+    "decision": "NÃO alcohol",
+    "features": [
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.11649031558280087,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 30,
+    "parent_id": 28,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "density",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.28116603021891795,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 31,
+    "parent_id": 23,
+    "decision": "INCLUIR pH",
+    "features": [
+      "density",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.052587778473932034,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 32,
+    "parent_id": 31,
+    "decision": "NÃO sulphates",
+    "features": [
+      "density",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.052587778473932034,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 33,
+    "parent_id": 32,
+    "decision": "NÃO alcohol",
+    "features": [
+      "density",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.052587778473932034,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 34,
+    "parent_id": 32,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "density",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2637672780358965,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 35,
+    "parent_id": 31,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "density",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.11999288006564157,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 36,
+    "parent_id": 35,
+    "decision": "NÃO alcohol",
+    "features": [
+      "density",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.11999288006564157,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 37,
+    "parent_id": 35,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "density",
+      "pH",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": 0.2957882098192498,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 38,
+    "parent_id": 6,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "total sulfur dioxide"
+    ],
+    "feature_count": 1,
+    "score": 0.03361324299580759,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 39,
+    "parent_id": 38,
+    "decision": "NÃO density",
+    "features": [
+      "total sulfur dioxide"
+    ],
+    "feature_count": 1,
+    "score": 0.03361324299580759,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 40,
+    "parent_id": 39,
+    "decision": "NÃO pH",
+    "features": [
+      "total sulfur dioxide"
+    ],
+    "feature_count": 1,
+    "score": 0.03361324299580759,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 41,
+    "parent_id": 40,
+    "decision": "NÃO sulphates",
+    "features": [
+      "total sulfur dioxide"
+    ],
+    "feature_count": 1,
+    "score": 0.03361324299580759,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 42,
+    "parent_id": 41,
+    "decision": "NÃO alcohol",
+    "features": [
+      "total sulfur dioxide"
+    ],
+    "feature_count": 1,
+    "score": 0.03361324299580759,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 43,
+    "parent_id": 41,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 2,
+    "score": 0.24388639032831083,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 44,
+    "parent_id": 40,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.10264342578720731,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 45,
+    "parent_id": 44,
+    "decision": "NÃO alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.10264342578720731,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 46,
+    "parent_id": 44,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2911447973185731,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 47,
+    "parent_id": 39,
+    "decision": "INCLUIR pH",
+    "features": [
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.03763331211048582,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 48,
+    "parent_id": 47,
+    "decision": "NÃO sulphates",
+    "features": [
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.03763331211048582,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 49,
+    "parent_id": 48,
+    "decision": "NÃO alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.03763331211048582,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 50,
+    "parent_id": 48,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2719893420303612,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 51,
+    "parent_id": 47,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "total sulfur dioxide",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.10287578845724488,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 52,
+    "parent_id": 51,
+    "decision": "NÃO alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.10287578845724488,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 53,
+    "parent_id": 51,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "pH",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": 0.3065840799578875,
+    "status": "SOLUCAO_OTIMA_ATUAL"
+  },
+  {
+    "id": 54,
+    "parent_id": 38,
+    "decision": "INCLUIR density",
+    "features": [
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.07144146004589602,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 55,
+    "parent_id": 54,
+    "decision": "NÃO pH",
+    "features": [
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.07144146004589602,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 56,
+    "parent_id": 55,
+    "decision": "NÃO sulphates",
+    "features": [
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.07144146004589602,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 57,
+    "parent_id": 56,
+    "decision": "NÃO alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.07144146004589602,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 58,
+    "parent_id": 56,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.24674007702428669,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 59,
+    "parent_id": 55,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "total sulfur dioxide",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.14874555759574093,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 60,
+    "parent_id": 59,
+    "decision": "NÃO alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.14874555759574093,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 61,
+    "parent_id": 59,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "density",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 62,
+    "parent_id": 54,
+    "decision": "INCLUIR pH",
+    "features": [
+      "total sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.08445306857483759,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 63,
+    "parent_id": 62,
+    "decision": "NÃO sulphates",
+    "features": [
+      "total sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.08445306857483759,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 64,
+    "parent_id": 63,
+    "decision": "NÃO alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.08445306857483759,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 65,
+    "parent_id": 63,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "total sulfur dioxide",
+      "density",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 66,
+    "parent_id": 62,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "total sulfur dioxide",
+      "density",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 67,
+    "parent_id": 5,
+    "decision": "INCLUIR free sulfur dioxide",
+    "features": [
+      "free sulfur dioxide"
+    ],
+    "feature_count": 1,
+    "score": 0.004001782239234308,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 68,
+    "parent_id": 67,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "free sulfur dioxide"
+    ],
+    "feature_count": 1,
+    "score": 0.004001782239234308,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 69,
+    "parent_id": 68,
+    "decision": "NÃO density",
+    "features": [
+      "free sulfur dioxide"
+    ],
+    "feature_count": 1,
+    "score": 0.004001782239234308,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 70,
+    "parent_id": 69,
+    "decision": "NÃO pH",
+    "features": [
+      "free sulfur dioxide"
+    ],
+    "feature_count": 1,
+    "score": 0.004001782239234308,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 71,
+    "parent_id": 70,
+    "decision": "NÃO sulphates",
+    "features": [
+      "free sulfur dioxide"
+    ],
+    "feature_count": 1,
+    "score": 0.004001782239234308,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 72,
+    "parent_id": 71,
+    "decision": "NÃO alcohol",
+    "features": [
+      "free sulfur dioxide"
+    ],
+    "feature_count": 1,
+    "score": 0.004001782239234308,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 73,
+    "parent_id": 71,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 2,
+    "score": 0.2367288086525,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 74,
+    "parent_id": 70,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.07162443441834954,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 75,
+    "parent_id": 74,
+    "decision": "NÃO alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.07162443441834954,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 76,
+    "parent_id": 74,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2827933321964399,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 77,
+    "parent_id": 69,
+    "decision": "INCLUIR pH",
+    "features": [
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.006303364467163064,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 78,
+    "parent_id": 77,
+    "decision": "NÃO sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.006303364467163064,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 79,
+    "parent_id": 78,
+    "decision": "NÃO alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.006303364467163064,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 80,
+    "parent_id": 78,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2633320941479699,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 81,
+    "parent_id": 77,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.07162563118228871,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 82,
+    "parent_id": 81,
+    "decision": "NÃO alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.07162563118228871,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 83,
+    "parent_id": 81,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "pH",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 84,
+    "parent_id": 68,
+    "decision": "INCLUIR density",
+    "features": [
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.04640444371432617,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 85,
+    "parent_id": 84,
+    "decision": "NÃO pH",
+    "features": [
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.04640444371432617,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 86,
+    "parent_id": 85,
+    "decision": "NÃO sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.04640444371432617,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 87,
+    "parent_id": 86,
+    "decision": "NÃO alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.04640444371432617,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 88,
+    "parent_id": 86,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.23985984447736342,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 89,
+    "parent_id": 85,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.1230072474238817,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 90,
+    "parent_id": 89,
+    "decision": "NÃO alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.1230072474238817,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 91,
+    "parent_id": 89,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "density",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 92,
+    "parent_id": 84,
+    "decision": "INCLUIR pH",
+    "features": [
+      "free sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.056634423873226036,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 93,
+    "parent_id": 92,
+    "decision": "NÃO sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.056634423873226036,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 94,
+    "parent_id": 93,
+    "decision": "NÃO alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.056634423873226036,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 95,
+    "parent_id": 93,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "density",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 96,
+    "parent_id": 92,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "density",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 97,
+    "parent_id": 67,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.039577423145074286,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 98,
+    "parent_id": 97,
+    "decision": "NÃO density",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.039577423145074286,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 99,
+    "parent_id": 98,
+    "decision": "NÃO pH",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.039577423145074286,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 100,
+    "parent_id": 99,
+    "decision": "NÃO sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.039577423145074286,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 101,
+    "parent_id": 100,
+    "decision": "NÃO alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.039577423145074286,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 102,
+    "parent_id": 100,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.24474410801367597,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 103,
+    "parent_id": 99,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.10774248275771348,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 104,
+    "parent_id": 103,
+    "decision": "NÃO alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.10774248275771348,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 105,
+    "parent_id": 103,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 106,
+    "parent_id": 98,
+    "decision": "INCLUIR pH",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.045321784388319686,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 107,
+    "parent_id": 106,
+    "decision": "NÃO sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.045321784388319686,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 108,
+    "parent_id": 107,
+    "decision": "NÃO alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.045321784388319686,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 109,
+    "parent_id": 107,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 110,
+    "parent_id": 106,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 111,
+    "parent_id": 97,
+    "decision": "INCLUIR density",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.0749960898191242,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 112,
+    "parent_id": 111,
+    "decision": "NÃO pH",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.0749960898191242,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 113,
+    "parent_id": 112,
+    "decision": "NÃO sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.0749960898191242,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 114,
+    "parent_id": 113,
+    "decision": "NÃO alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.0749960898191242,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 115,
+    "parent_id": 113,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 116,
+    "parent_id": 112,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 117,
+    "parent_id": 111,
+    "decision": "INCLUIR pH",
+    "features": [
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 118,
+    "parent_id": 4,
+    "decision": "INCLUIR chlorides",
+    "features": [
+      "chlorides"
+    ],
+    "feature_count": 1,
+    "score": 0.016072429993960302,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 119,
+    "parent_id": 118,
+    "decision": "NÃO free sulfur dioxide",
+    "features": [
+      "chlorides"
+    ],
+    "feature_count": 1,
+    "score": 0.016072429993960302,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 120,
+    "parent_id": 119,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "chlorides"
+    ],
+    "feature_count": 1,
+    "score": 0.016072429993960302,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 121,
+    "parent_id": 120,
+    "decision": "NÃO density",
+    "features": [
+      "chlorides"
+    ],
+    "feature_count": 1,
+    "score": 0.016072429993960302,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 122,
+    "parent_id": 121,
+    "decision": "NÃO pH",
+    "features": [
+      "chlorides"
+    ],
+    "feature_count": 1,
+    "score": 0.016072429993960302,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 123,
+    "parent_id": 122,
+    "decision": "NÃO sulphates",
+    "features": [
+      "chlorides"
+    ],
+    "feature_count": 1,
+    "score": 0.016072429993960302,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 124,
+    "parent_id": 123,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides"
+    ],
+    "feature_count": 1,
+    "score": 0.016072429993960302,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 125,
+    "parent_id": 123,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "alcohol"
+    ],
+    "feature_count": 2,
+    "score": 0.2353728382579413,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 126,
+    "parent_id": 122,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "chlorides",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.1237178152999514,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 127,
+    "parent_id": 126,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.1237178152999514,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 128,
+    "parent_id": 126,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2930794300339822,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 129,
+    "parent_id": 121,
+    "decision": "INCLUIR pH",
+    "features": [
+      "chlorides",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.024326554509548015,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 130,
+    "parent_id": 129,
+    "decision": "NÃO sulphates",
+    "features": [
+      "chlorides",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.024326554509548015,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 131,
+    "parent_id": 130,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.024326554509548015,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 132,
+    "parent_id": 130,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.26595559231936006,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 133,
+    "parent_id": 129,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "chlorides",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.1273716252701178,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 134,
+    "parent_id": 133,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.1273716252701178,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 135,
+    "parent_id": 133,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "pH",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 136,
+    "parent_id": 120,
+    "decision": "INCLUIR density",
+    "features": [
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.04977228727484273,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 137,
+    "parent_id": 136,
+    "decision": "NÃO pH",
+    "features": [
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.04977228727484273,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 138,
+    "parent_id": 137,
+    "decision": "NÃO sulphates",
+    "features": [
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.04977228727484273,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 139,
+    "parent_id": 138,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.04977228727484273,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 140,
+    "parent_id": 138,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.23898512967851926,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 141,
+    "parent_id": 137,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "chlorides",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.15855295657387658,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 142,
+    "parent_id": 141,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.15855295657387658,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 143,
+    "parent_id": 141,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "density",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 144,
+    "parent_id": 136,
+    "decision": "INCLUIR pH",
+    "features": [
+      "chlorides",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.06708629674309496,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 145,
+    "parent_id": 144,
+    "decision": "NÃO sulphates",
+    "features": [
+      "chlorides",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.06708629674309496,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 146,
+    "parent_id": 145,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.06708629674309496,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 147,
+    "parent_id": 145,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "density",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 148,
+    "parent_id": 144,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "chlorides",
+      "density",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 149,
+    "parent_id": 119,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.04764717445051303,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 150,
+    "parent_id": 149,
+    "decision": "NÃO density",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.04764717445051303,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 151,
+    "parent_id": 150,
+    "decision": "NÃO pH",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.04764717445051303,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 152,
+    "parent_id": 151,
+    "decision": "NÃO sulphates",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.04764717445051303,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 153,
+    "parent_id": 152,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.04764717445051303,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 154,
+    "parent_id": 152,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.24415827188643624,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 155,
+    "parent_id": 151,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.1565439124504029,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 156,
+    "parent_id": 155,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.1565439124504029,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 157,
+    "parent_id": 155,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 158,
+    "parent_id": 150,
+    "decision": "INCLUIR pH",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.05756037712236928,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 159,
+    "parent_id": 158,
+    "decision": "NÃO sulphates",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.05756037712236928,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 160,
+    "parent_id": 159,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.05756037712236928,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 161,
+    "parent_id": 159,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 162,
+    "parent_id": 158,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 163,
+    "parent_id": 149,
+    "decision": "INCLUIR density",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.07864279783874206,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 164,
+    "parent_id": 163,
+    "decision": "NÃO pH",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.07864279783874206,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 165,
+    "parent_id": 164,
+    "decision": "NÃO sulphates",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.07864279783874206,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 166,
+    "parent_id": 165,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.07864279783874206,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 167,
+    "parent_id": 165,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 168,
+    "parent_id": 164,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 169,
+    "parent_id": 163,
+    "decision": "INCLUIR pH",
+    "features": [
+      "chlorides",
+      "total sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 170,
+    "parent_id": 118,
+    "decision": "INCLUIR free sulfur dioxide",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.019877175586235807,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 171,
+    "parent_id": 170,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.019877175586235807,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 172,
+    "parent_id": 171,
+    "decision": "NÃO density",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.019877175586235807,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 173,
+    "parent_id": 172,
+    "decision": "NÃO pH",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.019877175586235807,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 174,
+    "parent_id": 173,
+    "decision": "NÃO sulphates",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.019877175586235807,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 175,
+    "parent_id": 174,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.019877175586235807,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 176,
+    "parent_id": 174,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2370086017701859,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 177,
+    "parent_id": 173,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.12893859043174483,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 178,
+    "parent_id": 177,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.12893859043174483,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 179,
+    "parent_id": 177,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 180,
+    "parent_id": 172,
+    "decision": "INCLUIR pH",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.027313135019094825,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 181,
+    "parent_id": 180,
+    "decision": "NÃO sulphates",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.027313135019094825,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 182,
+    "parent_id": 181,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.027313135019094825,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 183,
+    "parent_id": 181,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 184,
+    "parent_id": 180,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 185,
+    "parent_id": 171,
+    "decision": "INCLUIR density",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.054495636341978404,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 186,
+    "parent_id": 185,
+    "decision": "NÃO pH",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.054495636341978404,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 187,
+    "parent_id": 186,
+    "decision": "NÃO sulphates",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.054495636341978404,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 188,
+    "parent_id": 187,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.054495636341978404,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 189,
+    "parent_id": 187,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 190,
+    "parent_id": 186,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 191,
+    "parent_id": 185,
+    "decision": "INCLUIR pH",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 192,
+    "parent_id": 170,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.05318441773172067,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 193,
+    "parent_id": 192,
+    "decision": "NÃO density",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.05318441773172067,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 194,
+    "parent_id": 193,
+    "decision": "NÃO pH",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.05318441773172067,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 195,
+    "parent_id": 194,
+    "decision": "NÃO sulphates",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.05318441773172067,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 196,
+    "parent_id": 195,
+    "decision": "NÃO alcohol",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.05318441773172067,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 197,
+    "parent_id": 195,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 198,
+    "parent_id": 194,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 199,
+    "parent_id": 193,
+    "decision": "INCLUIR pH",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 200,
+    "parent_id": 192,
+    "decision": "INCLUIR density",
+    "features": [
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 201,
+    "parent_id": 3,
+    "decision": "INCLUIR residual sugar",
+    "features": [
+      "residual sugar"
+    ],
+    "feature_count": 1,
+    "score": 0.0004840849492457888,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 202,
+    "parent_id": 201,
+    "decision": "NÃO chlorides",
+    "features": [
+      "residual sugar"
+    ],
+    "feature_count": 1,
+    "score": 0.0004840849492457888,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 203,
+    "parent_id": 202,
+    "decision": "NÃO free sulfur dioxide",
+    "features": [
+      "residual sugar"
+    ],
+    "feature_count": 1,
+    "score": 0.0004840849492457888,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 204,
+    "parent_id": 203,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "residual sugar"
+    ],
+    "feature_count": 1,
+    "score": 0.0004840849492457888,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 205,
+    "parent_id": 204,
+    "decision": "NÃO density",
+    "features": [
+      "residual sugar"
+    ],
+    "feature_count": 1,
+    "score": 0.0004840849492457888,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 206,
+    "parent_id": 205,
+    "decision": "NÃO pH",
+    "features": [
+      "residual sugar"
+    ],
+    "feature_count": 1,
+    "score": 0.0004840849492457888,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 207,
+    "parent_id": 206,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar"
+    ],
+    "feature_count": 1,
+    "score": 0.0004840849492457888,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 208,
+    "parent_id": 207,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar"
+    ],
+    "feature_count": 1,
+    "score": 0.0004840849492457888,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 209,
+    "parent_id": 207,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "alcohol"
+    ],
+    "feature_count": 2,
+    "score": 0.23513072307519567,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 210,
+    "parent_id": 206,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.0667208716135772,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 211,
+    "parent_id": 210,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.0667208716135772,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 212,
+    "parent_id": 210,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2804873634842021,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 213,
+    "parent_id": 205,
+    "decision": "INCLUIR pH",
+    "features": [
+      "residual sugar",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.003006576670311567,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 214,
+    "parent_id": 213,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.003006576670311567,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 215,
+    "parent_id": 214,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.003006576670311567,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 216,
+    "parent_id": 214,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2634673156577524,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 217,
+    "parent_id": 213,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.06672828506965522,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 218,
+    "parent_id": 217,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.06672828506965522,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 219,
+    "parent_id": 217,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "pH",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 220,
+    "parent_id": 204,
+    "decision": "INCLUIR density",
+    "features": [
+      "residual sugar",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.04372613969574002,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 221,
+    "parent_id": 220,
+    "decision": "NÃO pH",
+    "features": [
+      "residual sugar",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.04372613969574002,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 222,
+    "parent_id": 221,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.04372613969574002,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 223,
+    "parent_id": 222,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.04372613969574002,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 224,
+    "parent_id": 222,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2388327943990448,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 225,
+    "parent_id": 221,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.11857121899094392,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 226,
+    "parent_id": 225,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.11857121899094392,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 227,
+    "parent_id": 225,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "density",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 228,
+    "parent_id": 220,
+    "decision": "INCLUIR pH",
+    "features": [
+      "residual sugar",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.05407059330250363,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 229,
+    "parent_id": 228,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.05407059330250363,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 230,
+    "parent_id": 229,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.05407059330250363,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 231,
+    "parent_id": 229,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "density",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 232,
+    "parent_id": 228,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "density",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 233,
+    "parent_id": 203,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.03698275466995182,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 234,
+    "parent_id": 233,
+    "decision": "NÃO density",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.03698275466995182,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 235,
+    "parent_id": 234,
+    "decision": "NÃO pH",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.03698275466995182,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 236,
+    "parent_id": 235,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.03698275466995182,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 237,
+    "parent_id": 236,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.03698275466995182,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 238,
+    "parent_id": 236,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.24406196987132556,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 239,
+    "parent_id": 235,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.10564064598924638,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 240,
+    "parent_id": 239,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.10564064598924638,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 241,
+    "parent_id": 239,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 242,
+    "parent_id": 234,
+    "decision": "INCLUIR pH",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.04028660626377256,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 243,
+    "parent_id": 242,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.04028660626377256,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 244,
+    "parent_id": 243,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.04028660626377256,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 245,
+    "parent_id": 243,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 246,
+    "parent_id": 242,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 247,
+    "parent_id": 233,
+    "decision": "INCLUIR density",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.07808221524296033,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 248,
+    "parent_id": 247,
+    "decision": "NÃO pH",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.07808221524296033,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 249,
+    "parent_id": 248,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.07808221524296033,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 250,
+    "parent_id": 249,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.07808221524296033,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 251,
+    "parent_id": 249,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 252,
+    "parent_id": 248,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 253,
+    "parent_id": 247,
+    "decision": "INCLUIR pH",
+    "features": [
+      "residual sugar",
+      "total sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 254,
+    "parent_id": 202,
+    "decision": "INCLUIR free sulfur dioxide",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.005085127293627645,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 255,
+    "parent_id": 254,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.005085127293627645,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 256,
+    "parent_id": 255,
+    "decision": "NÃO density",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.005085127293627645,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 257,
+    "parent_id": 256,
+    "decision": "NÃO pH",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.005085127293627645,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 258,
+    "parent_id": 257,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.005085127293627645,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 259,
+    "parent_id": 258,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.005085127293627645,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 260,
+    "parent_id": 258,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.23672905395018873,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 261,
+    "parent_id": 257,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.07251298650724092,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 262,
+    "parent_id": 261,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.07251298650724092,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 263,
+    "parent_id": 261,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 264,
+    "parent_id": 256,
+    "decision": "INCLUIR pH",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.007024529432502646,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 265,
+    "parent_id": 264,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.007024529432502646,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 266,
+    "parent_id": 265,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.007024529432502646,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 267,
+    "parent_id": 265,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 268,
+    "parent_id": 264,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 269,
+    "parent_id": 255,
+    "decision": "INCLUIR density",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.05009945111685088,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 270,
+    "parent_id": 269,
+    "decision": "NÃO pH",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.05009945111685088,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 271,
+    "parent_id": 270,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.05009945111685088,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 272,
+    "parent_id": 271,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.05009945111685088,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 273,
+    "parent_id": 271,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 274,
+    "parent_id": 270,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 275,
+    "parent_id": 269,
+    "decision": "INCLUIR pH",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 276,
+    "parent_id": 254,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.04249480924655269,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 277,
+    "parent_id": 276,
+    "decision": "NÃO density",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.04249480924655269,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 278,
+    "parent_id": 277,
+    "decision": "NÃO pH",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.04249480924655269,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 279,
+    "parent_id": 278,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.04249480924655269,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 280,
+    "parent_id": 279,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.04249480924655269,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 281,
+    "parent_id": 279,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 282,
+    "parent_id": 278,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 283,
+    "parent_id": 277,
+    "decision": "INCLUIR pH",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 284,
+    "parent_id": 276,
+    "decision": "INCLUIR density",
+    "features": [
+      "residual sugar",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 285,
+    "parent_id": 201,
+    "decision": "INCLUIR chlorides",
+    "features": [
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.017016336272604016,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 286,
+    "parent_id": 285,
+    "decision": "NÃO free sulfur dioxide",
+    "features": [
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.017016336272604016,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 287,
+    "parent_id": 286,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.017016336272604016,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 288,
+    "parent_id": 287,
+    "decision": "NÃO density",
+    "features": [
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.017016336272604016,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 289,
+    "parent_id": 288,
+    "decision": "NÃO pH",
+    "features": [
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.017016336272604016,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 290,
+    "parent_id": 289,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.017016336272604016,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 291,
+    "parent_id": 290,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.017016336272604016,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 292,
+    "parent_id": 290,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2353972689911764,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 293,
+    "parent_id": 289,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.12483961386292075,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 294,
+    "parent_id": 293,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.12483961386292075,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 295,
+    "parent_id": 293,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 296,
+    "parent_id": 288,
+    "decision": "INCLUIR pH",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.02479036038977478,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 297,
+    "parent_id": 296,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.02479036038977478,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 298,
+    "parent_id": 297,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.02479036038977478,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 299,
+    "parent_id": 297,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 300,
+    "parent_id": 296,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 301,
+    "parent_id": 287,
+    "decision": "INCLUIR density",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.05249087006008879,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 302,
+    "parent_id": 301,
+    "decision": "NÃO pH",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.05249087006008879,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 303,
+    "parent_id": 302,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.05249087006008879,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 304,
+    "parent_id": 303,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.05249087006008879,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 305,
+    "parent_id": 303,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 306,
+    "parent_id": 302,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 307,
+    "parent_id": 301,
+    "decision": "INCLUIR pH",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "density",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 308,
+    "parent_id": 286,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.051917706656375184,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 309,
+    "parent_id": 308,
+    "decision": "NÃO density",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.051917706656375184,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 310,
+    "parent_id": 309,
+    "decision": "NÃO pH",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.051917706656375184,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 311,
+    "parent_id": 310,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.051917706656375184,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 312,
+    "parent_id": 311,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.051917706656375184,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 313,
+    "parent_id": 311,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "total sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 314,
+    "parent_id": 310,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 315,
+    "parent_id": 309,
+    "decision": "INCLUIR pH",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 316,
+    "parent_id": 308,
+    "decision": "INCLUIR density",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 317,
+    "parent_id": 285,
+    "decision": "INCLUIR free sulfur dioxide",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.02159619426342385,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 318,
+    "parent_id": 317,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.02159619426342385,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 319,
+    "parent_id": 318,
+    "decision": "NÃO density",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.02159619426342385,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 320,
+    "parent_id": 319,
+    "decision": "NÃO pH",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.02159619426342385,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 321,
+    "parent_id": 320,
+    "decision": "NÃO sulphates",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.02159619426342385,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 322,
+    "parent_id": 321,
+    "decision": "NÃO alcohol",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.02159619426342385,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 323,
+    "parent_id": 321,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 324,
+    "parent_id": 320,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 325,
+    "parent_id": 319,
+    "decision": "INCLUIR pH",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 326,
+    "parent_id": 318,
+    "decision": "INCLUIR density",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 327,
+    "parent_id": 317,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 328,
+    "parent_id": 2,
+    "decision": "INCLUIR citric acid",
+    "features": [
+      "citric acid"
+    ],
+    "feature_count": 1,
+    "score": 0.05799467560427529,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 329,
+    "parent_id": 328,
+    "decision": "NÃO residual sugar",
+    "features": [
+      "citric acid"
+    ],
+    "feature_count": 1,
+    "score": 0.05799467560427529,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 330,
+    "parent_id": 329,
+    "decision": "NÃO chlorides",
+    "features": [
+      "citric acid"
+    ],
+    "feature_count": 1,
+    "score": 0.05799467560427529,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 331,
+    "parent_id": 330,
+    "decision": "NÃO free sulfur dioxide",
+    "features": [
+      "citric acid"
+    ],
+    "feature_count": 1,
+    "score": 0.05799467560427529,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 332,
+    "parent_id": 331,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "citric acid"
+    ],
+    "feature_count": 1,
+    "score": 0.05799467560427529,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 333,
+    "parent_id": 332,
+    "decision": "NÃO density",
+    "features": [
+      "citric acid"
+    ],
+    "feature_count": 1,
+    "score": 0.05799467560427529,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 334,
+    "parent_id": 333,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid"
+    ],
+    "feature_count": 1,
+    "score": 0.05799467560427529,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 335,
+    "parent_id": 334,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid"
+    ],
+    "feature_count": 1,
+    "score": 0.05799467560427529,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 336,
+    "parent_id": 335,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid"
+    ],
+    "feature_count": 1,
+    "score": 0.05799467560427529,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 337,
+    "parent_id": 335,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "alcohol"
+    ],
+    "feature_count": 2,
+    "score": 0.27133759927809165,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 338,
+    "parent_id": 334,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.09356036967615622,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 339,
+    "parent_id": 338,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": 0.09356036967615622,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 340,
+    "parent_id": 338,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.29685653697574643,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 341,
+    "parent_id": 333,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.06691748328199476,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 342,
+    "parent_id": 341,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.06691748328199476,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 343,
+    "parent_id": 342,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": 0.06691748328199476,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 344,
+    "parent_id": 342,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2757834846287651,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 345,
+    "parent_id": 341,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.10268906246144716,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 346,
+    "parent_id": 345,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.10268906246144716,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 347,
+    "parent_id": 345,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "pH",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 348,
+    "parent_id": 332,
+    "decision": "INCLUIR density",
+    "features": [
+      "citric acid",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.11669714805727471,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 349,
+    "parent_id": 348,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.11669714805727471,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 350,
+    "parent_id": 349,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.11669714805727471,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 351,
+    "parent_id": 350,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": 0.11669714805727471,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 352,
+    "parent_id": 350,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2715062549356251,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 353,
+    "parent_id": 349,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.154926981443261,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 354,
+    "parent_id": 353,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.154926981443261,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 355,
+    "parent_id": 353,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "density",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 356,
+    "parent_id": 348,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.1189587292274239,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 357,
+    "parent_id": 356,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.1189587292274239,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 358,
+    "parent_id": 357,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "density",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.1189587292274239,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 359,
+    "parent_id": 357,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "density",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 360,
+    "parent_id": 356,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "density",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 361,
+    "parent_id": 331,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.09499291763238837,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 362,
+    "parent_id": 361,
+    "decision": "NÃO density",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.09499291763238837,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 363,
+    "parent_id": 362,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.09499291763238837,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 364,
+    "parent_id": 363,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.09499291763238837,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 365,
+    "parent_id": 364,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.09499291763238837,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 366,
+    "parent_id": 364,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2823729303297673,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 367,
+    "parent_id": 363,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.13170605959902137,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 368,
+    "parent_id": 367,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.13170605959902137,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 369,
+    "parent_id": 367,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 370,
+    "parent_id": 362,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.10231944860254927,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 371,
+    "parent_id": 370,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.10231944860254927,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 372,
+    "parent_id": 371,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.10231944860254927,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 373,
+    "parent_id": 371,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 374,
+    "parent_id": 370,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 375,
+    "parent_id": 361,
+    "decision": "INCLUIR density",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.14961186237861313,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 376,
+    "parent_id": 375,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.14961186237861313,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 377,
+    "parent_id": 376,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.14961186237861313,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 378,
+    "parent_id": 377,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.14961186237861313,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 379,
+    "parent_id": 377,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 380,
+    "parent_id": 376,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 381,
+    "parent_id": 375,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "total sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 382,
+    "parent_id": 330,
+    "decision": "INCLUIR free sulfur dioxide",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.06044226246037443,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 383,
+    "parent_id": 382,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.06044226246037443,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 384,
+    "parent_id": 383,
+    "decision": "NÃO density",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.06044226246037443,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 385,
+    "parent_id": 384,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.06044226246037443,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 386,
+    "parent_id": 385,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.06044226246037443,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 387,
+    "parent_id": 386,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": 0.06044226246037443,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 388,
+    "parent_id": 386,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2722640424171031,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 389,
+    "parent_id": 385,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.09719470839422018,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 390,
+    "parent_id": 389,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.09719470839422018,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 391,
+    "parent_id": 389,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 392,
+    "parent_id": 384,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.06985615616715257,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 393,
+    "parent_id": 392,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.06985615616715257,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 394,
+    "parent_id": 393,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.06985615616715257,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 395,
+    "parent_id": 393,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 396,
+    "parent_id": 392,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 397,
+    "parent_id": 383,
+    "decision": "INCLUIR density",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.11983521665239527,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 398,
+    "parent_id": 397,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.11983521665239527,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 399,
+    "parent_id": 398,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.11983521665239527,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 400,
+    "parent_id": 399,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.11983521665239527,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 401,
+    "parent_id": 399,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 402,
+    "parent_id": 398,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 403,
+    "parent_id": 397,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "density",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 404,
+    "parent_id": 382,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.10600530241976813,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 405,
+    "parent_id": 404,
+    "decision": "NÃO density",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.10600530241976813,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 406,
+    "parent_id": 405,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.10600530241976813,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 407,
+    "parent_id": 406,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.10600530241976813,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 408,
+    "parent_id": 407,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.10600530241976813,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 409,
+    "parent_id": 407,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 410,
+    "parent_id": 406,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 411,
+    "parent_id": 405,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 412,
+    "parent_id": 404,
+    "decision": "INCLUIR density",
+    "features": [
+      "citric acid",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 413,
+    "parent_id": 329,
+    "decision": "INCLUIR chlorides",
+    "features": [
+      "citric acid",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.09433276021286519,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 414,
+    "parent_id": 413,
+    "decision": "NÃO free sulfur dioxide",
+    "features": [
+      "citric acid",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.09433276021286519,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 415,
+    "parent_id": 414,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.09433276021286519,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 416,
+    "parent_id": 415,
+    "decision": "NÃO density",
+    "features": [
+      "citric acid",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.09433276021286519,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 417,
+    "parent_id": 416,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.09433276021286519,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 418,
+    "parent_id": 417,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.09433276021286519,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 419,
+    "parent_id": 418,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": 0.09433276021286519,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 420,
+    "parent_id": 418,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2764984880335529,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 421,
+    "parent_id": 417,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.16334654018516825,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 422,
+    "parent_id": 421,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.16334654018516825,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 423,
+    "parent_id": 421,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 424,
+    "parent_id": 416,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.09815756434657585,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 425,
+    "parent_id": 424,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.09815756434657585,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 426,
+    "parent_id": 425,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.09815756434657585,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 427,
+    "parent_id": 425,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 428,
+    "parent_id": 424,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 429,
+    "parent_id": 415,
+    "decision": "INCLUIR density",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.14092118334645642,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 430,
+    "parent_id": 429,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.14092118334645642,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 431,
+    "parent_id": 430,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.14092118334645642,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 432,
+    "parent_id": 431,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.14092118334645642,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 433,
+    "parent_id": 431,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 434,
+    "parent_id": 430,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 435,
+    "parent_id": 429,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "density",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 436,
+    "parent_id": 414,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.12862787476697324,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 437,
+    "parent_id": 436,
+    "decision": "NÃO density",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.12862787476697324,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 438,
+    "parent_id": 437,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.12862787476697324,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 439,
+    "parent_id": 438,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.12862787476697324,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 440,
+    "parent_id": 439,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.12862787476697324,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 441,
+    "parent_id": 439,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "total sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 442,
+    "parent_id": 438,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 443,
+    "parent_id": 437,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 444,
+    "parent_id": 436,
+    "decision": "INCLUIR density",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 445,
+    "parent_id": 413,
+    "decision": "INCLUIR free sulfur dioxide",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.09629487426132921,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 446,
+    "parent_id": 445,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.09629487426132921,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 447,
+    "parent_id": 446,
+    "decision": "NÃO density",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.09629487426132921,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 448,
+    "parent_id": 447,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.09629487426132921,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 449,
+    "parent_id": 448,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.09629487426132921,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 450,
+    "parent_id": 449,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.09629487426132921,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 451,
+    "parent_id": 449,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "free sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 452,
+    "parent_id": 448,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "free sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 453,
+    "parent_id": 447,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 454,
+    "parent_id": 446,
+    "decision": "INCLUIR density",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 455,
+    "parent_id": 445,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 456,
+    "parent_id": 328,
+    "decision": "INCLUIR residual sugar",
+    "features": [
+      "citric acid",
+      "residual sugar"
+    ],
+    "feature_count": 2,
+    "score": 0.05842150135275859,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 457,
+    "parent_id": 456,
+    "decision": "NÃO chlorides",
+    "features": [
+      "citric acid",
+      "residual sugar"
+    ],
+    "feature_count": 2,
+    "score": 0.05842150135275859,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 458,
+    "parent_id": 457,
+    "decision": "NÃO free sulfur dioxide",
+    "features": [
+      "citric acid",
+      "residual sugar"
+    ],
+    "feature_count": 2,
+    "score": 0.05842150135275859,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 459,
+    "parent_id": 458,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "residual sugar"
+    ],
+    "feature_count": 2,
+    "score": 0.05842150135275859,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 460,
+    "parent_id": 459,
+    "decision": "NÃO density",
+    "features": [
+      "citric acid",
+      "residual sugar"
+    ],
+    "feature_count": 2,
+    "score": 0.05842150135275859,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 461,
+    "parent_id": 460,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "residual sugar"
+    ],
+    "feature_count": 2,
+    "score": 0.05842150135275859,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 462,
+    "parent_id": 461,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "residual sugar"
+    ],
+    "feature_count": 2,
+    "score": 0.05842150135275859,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 463,
+    "parent_id": 462,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar"
+    ],
+    "feature_count": 2,
+    "score": 0.05842150135275859,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 464,
+    "parent_id": 462,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "alcohol"
+    ],
+    "feature_count": 3,
+    "score": 0.2728935031028624,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 465,
+    "parent_id": 461,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.0937140264134304,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 466,
+    "parent_id": 465,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "sulphates"
+    ],
+    "feature_count": 3,
+    "score": 0.0937140264134304,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 467,
+    "parent_id": 465,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "sulphates",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 468,
+    "parent_id": 460,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.0672513027871644,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 469,
+    "parent_id": 468,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.0672513027871644,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 470,
+    "parent_id": 469,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "pH"
+    ],
+    "feature_count": 3,
+    "score": 0.0672513027871644,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 471,
+    "parent_id": 469,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "pH",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 472,
+    "parent_id": 468,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "pH",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 473,
+    "parent_id": 459,
+    "decision": "INCLUIR density",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.11671265140958897,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 474,
+    "parent_id": 473,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.11671265140958897,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 475,
+    "parent_id": 474,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.11671265140958897,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 476,
+    "parent_id": 475,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "density"
+    ],
+    "feature_count": 3,
+    "score": 0.11671265140958897,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 477,
+    "parent_id": 475,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "density",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 478,
+    "parent_id": 474,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "density",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 479,
+    "parent_id": 473,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "density",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 480,
+    "parent_id": 458,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.09523797510221521,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 481,
+    "parent_id": 480,
+    "decision": "NÃO density",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.09523797510221521,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 482,
+    "parent_id": 481,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.09523797510221521,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 483,
+    "parent_id": 482,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.09523797510221521,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 484,
+    "parent_id": 483,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.09523797510221521,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 485,
+    "parent_id": 483,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "total sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 486,
+    "parent_id": 482,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "total sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 487,
+    "parent_id": 481,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "total sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 488,
+    "parent_id": 480,
+    "decision": "INCLUIR density",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "total sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 489,
+    "parent_id": 457,
+    "decision": "INCLUIR free sulfur dioxide",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.06058674602533842,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 490,
+    "parent_id": 489,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.06058674602533842,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 491,
+    "parent_id": 490,
+    "decision": "NÃO density",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.06058674602533842,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 492,
+    "parent_id": 491,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.06058674602533842,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 493,
+    "parent_id": 492,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.06058674602533842,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 494,
+    "parent_id": 493,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 3,
+    "score": 0.06058674602533842,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 495,
+    "parent_id": 493,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "free sulfur dioxide",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 496,
+    "parent_id": 492,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "free sulfur dioxide",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 497,
+    "parent_id": 491,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "free sulfur dioxide",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 498,
+    "parent_id": 490,
+    "decision": "INCLUIR density",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "free sulfur dioxide",
+      "density"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 499,
+    "parent_id": 489,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "free sulfur dioxide",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 500,
+    "parent_id": 456,
+    "decision": "INCLUIR chlorides",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 3,
+    "score": 0.09457391713143026,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 501,
+    "parent_id": 500,
+    "decision": "NÃO free sulfur dioxide",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 3,
+    "score": 0.09457391713143026,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 502,
+    "parent_id": 501,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 3,
+    "score": 0.09457391713143026,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 503,
+    "parent_id": 502,
+    "decision": "NÃO density",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 3,
+    "score": 0.09457391713143026,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 504,
+    "parent_id": 503,
+    "decision": "NÃO pH",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 3,
+    "score": 0.09457391713143026,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 505,
+    "parent_id": 504,
+    "decision": "NÃO sulphates",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 3,
+    "score": 0.09457391713143026,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 506,
+    "parent_id": 505,
+    "decision": "NÃO alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides"
+    ],
+    "feature_count": 3,
+    "score": 0.09457391713143026,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 507,
+    "parent_id": 505,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides",
+      "alcohol"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 508,
+    "parent_id": 504,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides",
+      "sulphates"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 509,
+    "parent_id": 503,
+    "decision": "INCLUIR pH",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides",
+      "pH"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 510,
+    "parent_id": 502,
+    "decision": "INCLUIR density",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides",
+      "density"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 511,
+    "parent_id": 501,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 512,
+    "parent_id": 500,
+    "decision": "INCLUIR free sulfur dioxide",
+    "features": [
+      "citric acid",
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 4,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 513,
+    "parent_id": 1,
+    "decision": "INCLUIR volatile acidity",
+    "features": [
+      "volatile acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.16607842115514504,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 514,
+    "parent_id": 513,
+    "decision": "NÃO citric acid",
+    "features": [
+      "volatile acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.16607842115514504,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 515,
+    "parent_id": 514,
+    "decision": "NÃO residual sugar",
+    "features": [
+      "volatile acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.16607842115514504,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 516,
+    "parent_id": 515,
+    "decision": "NÃO chlorides",
+    "features": [
+      "volatile acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.16607842115514504,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 517,
+    "parent_id": 516,
+    "decision": "NÃO free sulfur dioxide",
+    "features": [
+      "volatile acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.16607842115514504,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 518,
+    "parent_id": 517,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "volatile acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.16607842115514504,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 519,
+    "parent_id": 518,
+    "decision": "NÃO density",
+    "features": [
+      "volatile acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.16607842115514504,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 520,
+    "parent_id": 519,
+    "decision": "NÃO pH",
+    "features": [
+      "volatile acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.16607842115514504,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 521,
+    "parent_id": 520,
+    "decision": "NÃO sulphates",
+    "features": [
+      "volatile acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.16607842115514504,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 522,
+    "parent_id": 521,
+    "decision": "NÃO alcohol",
+    "features": [
+      "volatile acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.16607842115514504,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 523,
+    "parent_id": 521,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "volatile acidity",
+      "alcohol"
+    ],
+    "feature_count": 2,
+    "score": 0.33447282205604667,
+    "status": "SOLUCAO_OTIMA_ATUAL"
+  },
+  {
+    "id": 524,
+    "parent_id": 520,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "volatile acidity",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 525,
+    "parent_id": 519,
+    "decision": "INCLUIR pH",
+    "features": [
+      "volatile acidity",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 526,
+    "parent_id": 518,
+    "decision": "INCLUIR density",
+    "features": [
+      "volatile acidity",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 527,
+    "parent_id": 517,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "volatile acidity",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 528,
+    "parent_id": 516,
+    "decision": "INCLUIR free sulfur dioxide",
+    "features": [
+      "volatile acidity",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 529,
+    "parent_id": 515,
+    "decision": "INCLUIR chlorides",
+    "features": [
+      "volatile acidity",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 530,
+    "parent_id": 514,
+    "decision": "INCLUIR residual sugar",
+    "features": [
+      "volatile acidity",
+      "residual sugar"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 531,
+    "parent_id": 513,
+    "decision": "INCLUIR citric acid",
+    "features": [
+      "volatile acidity",
+      "citric acid"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 532,
+    "parent_id": 0,
+    "decision": "INCLUIR fixed acidity",
+    "features": [
+      "fixed acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.014876705268947576,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 533,
+    "parent_id": 532,
+    "decision": "NÃO volatile acidity",
+    "features": [
+      "fixed acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.014876705268947576,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 534,
+    "parent_id": 533,
+    "decision": "NÃO citric acid",
+    "features": [
+      "fixed acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.014876705268947576,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 535,
+    "parent_id": 534,
+    "decision": "NÃO residual sugar",
+    "features": [
+      "fixed acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.014876705268947576,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 536,
+    "parent_id": 535,
+    "decision": "NÃO chlorides",
+    "features": [
+      "fixed acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.014876705268947576,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 537,
+    "parent_id": 536,
+    "decision": "NÃO free sulfur dioxide",
+    "features": [
+      "fixed acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.014876705268947576,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 538,
+    "parent_id": 537,
+    "decision": "NÃO total sulfur dioxide",
+    "features": [
+      "fixed acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.014876705268947576,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 539,
+    "parent_id": 538,
+    "decision": "NÃO density",
+    "features": [
+      "fixed acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.014876705268947576,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 540,
+    "parent_id": 539,
+    "decision": "NÃO pH",
+    "features": [
+      "fixed acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.014876705268947576,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 541,
+    "parent_id": 540,
+    "decision": "NÃO sulphates",
+    "features": [
+      "fixed acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.014876705268947576,
+    "status": "EXPLORADO"
+  },
+  {
+    "id": 542,
+    "parent_id": 541,
+    "decision": "NÃO alcohol",
+    "features": [
+      "fixed acidity"
+    ],
+    "feature_count": 1,
+    "score": 0.014876705268947576,
+    "status": "FOLHA_INVALIDA"
+  },
+  {
+    "id": 543,
+    "parent_id": 541,
+    "decision": "INCLUIR alcohol",
+    "features": [
+      "fixed acidity",
+      "alcohol"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 544,
+    "parent_id": 540,
+    "decision": "INCLUIR sulphates",
+    "features": [
+      "fixed acidity",
+      "sulphates"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 545,
+    "parent_id": 539,
+    "decision": "INCLUIR pH",
+    "features": [
+      "fixed acidity",
+      "pH"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 546,
+    "parent_id": 538,
+    "decision": "INCLUIR density",
+    "features": [
+      "fixed acidity",
+      "density"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 547,
+    "parent_id": 537,
+    "decision": "INCLUIR total sulfur dioxide",
+    "features": [
+      "fixed acidity",
+      "total sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 548,
+    "parent_id": 536,
+    "decision": "INCLUIR free sulfur dioxide",
+    "features": [
+      "fixed acidity",
+      "free sulfur dioxide"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 549,
+    "parent_id": 535,
+    "decision": "INCLUIR chlorides",
+    "features": [
+      "fixed acidity",
+      "chlorides"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 550,
+    "parent_id": 534,
+    "decision": "INCLUIR residual sugar",
+    "features": [
+      "fixed acidity",
+      "residual sugar"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 551,
+    "parent_id": 533,
+    "decision": "INCLUIR citric acid",
+    "features": [
+      "fixed acidity",
+      "citric acid"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  },
+  {
+    "id": 552,
+    "parent_id": 532,
+    "decision": "INCLUIR volatile acidity",
+    "features": [
+      "fixed acidity",
+      "volatile acidity"
+    ],
+    "feature_count": 2,
+    "score": -1.0,
+    "status": "PODADO_BOUND"
+  }
+]
