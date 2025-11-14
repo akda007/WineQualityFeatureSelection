@@ -5,10 +5,10 @@
       "alcohol"
     ],
     "feature_count": 2,
-    "r2_score": 0.33447282205604656
+    "r2_score": 0.33447282205604667
   },
   "execution_metrics": {
-    "total_time_seconds": 0.8195602893829346,
+    "total_time_seconds": 0.5788383483886719,
     "nodes_visited": 411,
     "solutions_found_count": 2,
     "r2_goal": 0.3
@@ -30,7 +30,7 @@
         "alcohol"
       ],
       "feature_count": 2,
-      "score": 0.33447282205604656
+      "score": 0.33447282205604667
     }
   ]
 }

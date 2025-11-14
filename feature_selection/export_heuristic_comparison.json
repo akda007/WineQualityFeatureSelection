@@ -5,19 +5,19 @@
       "alcohol"
     ],
     "feature_count": 2,
-    "r2_score": 0.33447282205604656
+    "r2_score": 0.33447282205604667
   },
   "greedy_heuristic_steps": [
     {
       "feature_count": 1,
-      "r2_score": 0.23509059834166257,
+      "r2_score": 0.23509059834166246,
       "features": [
         "alcohol"
       ]
     },
     {
       "feature_count": 2,
-      "r2_score": 0.33447282205604667,
+      "r2_score": 0.33447282205604645,
       "features": [
         "alcohol",
         "volatile acidity"
@@ -80,7 +80,7 @@
     },
     {
       "feature_count": 8,
-      "r2_score": 0.3743117475680231,
+      "r2_score": 0.374311747568023,
       "features": [
         "alcohol",
         "volatile acidity",
@@ -94,7 +94,7 @@
     },
     {
       "feature_count": 9,
-      "r2_score": 0.374584746519776,
+      "r2_score": 0.37458474651977614,
       "features": [
         "alcohol",
         "volatile acidity",
@@ -125,7 +125,7 @@
     },
     {
       "feature_count": 11,
-      "r2_score": 0.3746563038667138,
+      "r2_score": 0.37465630386671356,
       "features": [
         "alcohol",
         "volatile acidity",
