@@ -17,16 +17,12 @@ best_solution_feature_count = float('inf')
 nodes_visited = 0
 
 # --- Estruturas de Dados para Exportação ---
-# Irá armazenar o log de cada nó para construir a árvore
 tree_data_log = []
-# Irá armazenar cada solução viável encontrada
 solutions_found_log = []
-# Contador para IDs de nós únicos
 node_id_counter = 0
 
 # --- Carregar e Preparar os Dados ---
 try:
-    # Ajuste o caminho conforme necessário
     df = pd.read_csv("../dataset_cleaning/wine_clean.csv")
 except FileNotFoundError:
     print(f"Erro: Ficheiro './dataset_cleaning/wine_clean.csv' não encontrado.")
@@ -102,7 +98,6 @@ def solve_feature_selection_bnb(
     }
 
     # --- 1. LÓGICA DE PODA (PRUNING) B&B ---
-    # Poda por Limite (Bound): Se já temos mais features que a nossa melhor solução, podar.
     if len(current_features_list) >= best_solution_feature_count:
         node_log["status"] = "PODADO_BOUND"
         tree_data_log.append(node_log)
@@ -110,12 +105,10 @@ def solve_feature_selection_bnb(
 
     # --- 2. AVALIAR O NÓ ATUAL ---
     model_score = train_and_evaluate(current_features_list)
-    # Converter -inf para None (que se tornará 'null' no JSON)
     node_log["score"] = model_score if model_score != -float('inf') else None
 
     # --- 3. VERIFICAR A RESTRIÇÃO ("META") ---
     if model_score >= MINIMUM_R2_SCORE:
-        # Encontrámos uma solução viável
         solution_data = {
             "features": list(current_features_list),
             "feature_count": len(current_features_list),
@@ -123,7 +116,6 @@ def solve_feature_selection_bnb(
         }
         solutions_found_log.append(solution_data)
 
-        # É uma *nova melhor* solução?
         if len(current_features_list) < best_solution_feature_count:
             print("*" * 40)
             print(f"*** NOVA MELHOR SOLUÇÃO ENCONTRADA! ***")
@@ -138,22 +130,18 @@ def solve_feature_selection_bnb(
             node_log["status"] = "SOLUCAO_OTIMA_ATUAL"
             
         else:
-            # É uma solução viável, mas não é melhor que a que já temos (tem mais features)
             node_log["status"] = "PODADO_SOLUCAO_PIOR"
 
         tree_data_log.append(node_log)
-        # Paramos de explorar este ramo (não queremos adicionar mais features)
         return
 
     # --- 4. CONDIÇÃO DE PARAGEM (FIM DA ÁRVORE) ---
-    # Chegámos ao fim (folha) sem atingir a meta
     if current_feature_index >= len(ALL_FEATURES):
         node_log["status"] = "FOLHA_INVALIDA"
         tree_data_log.append(node_log)
         return
 
     # --- 5. LÓGICA DE RAMIFICAÇÃO (BRANCHING) ---
-    # Se chegámos aqui, o nó será expandido
     node_log["status"] = "EXPLORADO"
     tree_data_log.append(node_log)
     
@@ -188,12 +176,10 @@ def run_greedy_heuristic():
     selected_features = []
     best_score_so_far = -float('inf')
     
-    # Itera para adicionar uma feature de cada vez
     for i in range(len(ALL_FEATURES)):
         best_new_feature = None
         best_score_this_step = -float('inf')
         
-        # Testa todas as features restantes
         for feature in ALL_FEATURES:
             if feature not in selected_features:
                 current_test_features = selected_features + [feature]
@@ -203,7 +189,6 @@ def run_greedy_heuristic():
                     best_score_this_step = score
                     best_new_feature = feature
         
-        # Se o score melhorou, adiciona a feature
         if best_score_this_step > best_score_so_far:
             best_score_so_far = best_score_this_step
             selected_features.append(best_new_feature)
@@ -216,7 +201,6 @@ def run_greedy_heuristic():
             greedy_steps_log.append(step_data)
             print(f"  Greedy Step {len(selected_features)}: Score {best_score_so_far:.4f} com {selected_features}")
         else:
-            # O score não melhorou, paramos
             break
             
     print("Heurística Gulosa completa.")
@@ -238,10 +222,9 @@ def main():
     print(f"Total de features para testar: {len(ALL_FEATURES)}")
     print("-" * 40)
 
-    nodes_visited = 0 # Resetar contador para o B&B
+    nodes_visited = 0
     start_time = time.time()
     
-    # Iniciar a busca a partir da raiz
     solve_feature_selection_bnb(
         current_feature_index=0,
         current_features_list=[],
@@ -264,7 +247,6 @@ def main():
         print(f"  Features: {best_solution_features}")
         print(f"  N.º de Features: {best_solution_feature_count}")
         
-        # Encontrar o score da melhor solução (está no log)
         final_score = 0
         for sol in solutions_found_log:
              if sol["features"] == best_solution_features:
@@ -280,10 +262,10 @@ def main():
         print("Nenhuma solução encontrada que atinja a meta de R2.")
         print(f"Tente baixar o valor de 'MINIMUM_R2_SCORE' (atualmente {MINIMUM_R2_SCORE}).")
 
-    # 3. Exportar Ficheiros JSON
+    # 3. Exportar JSON
     print("\nA exportar ficheiros JSON para o dashboard...")
 
-    # Ficheiro 1: A Árvore de Busca Completa
+    # Arquivo 1: A Árvore de Busca Completa
     try:
         with open('export_bnb_tree.json', 'w', encoding='utf-8') as f:
             json.dump(tree_data_log, f, indent=2, ensure_ascii=False)
@@ -291,7 +273,7 @@ def main():
     except Exception as e:
         print(f"  - ERRO ao exportar 'export_bnb_tree.json': {e}")
 
-    # Ficheiro 2: Sumário da Execução do B&B
+    # Arquivo 2: Sumário da Execução do B&B
     summary_data = {
         "final_solution": final_solution,
         "execution_metrics": {
@@ -309,7 +291,7 @@ def main():
     except Exception as e:
         print(f"  - ERRO ao exportar 'export_bnb_summary.json': {e}")
         
-    # Ficheiro 3: Comparação com Heurística
+    # arquivo 3: Comparação com Heurística
     heuristic_data = {
         "bnb_optimal": final_solution,
         "greedy_heuristic_steps": greedy_results
