@@ -115,7 +115,7 @@
       "alcohol"
     ],
     "feature_count": 1,
-    "score": 0.23509059834166246,
+    "score": 0.23509059834166257,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -194,7 +194,7 @@
       "alcohol"
     ],
     "feature_count": 2,
-    "score": 0.26263797645908205,
+    "score": 0.2626379764590818,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -287,7 +287,7 @@
       "alcohol"
     ],
     "feature_count": 2,
-    "score": 0.23853171113077454,
+    "score": 0.23853171113077465,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -492,7 +492,7 @@
       "sulphates"
     ],
     "feature_count": 2,
-    "score": 0.10264342578720731,
+    "score": 0.10264342578720709,
     "status": "EXPLORADO"
   },
   {
@@ -504,7 +504,7 @@
       "sulphates"
     ],
     "feature_count": 2,
-    "score": 0.10264342578720731,
+    "score": 0.10264342578720709,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -517,7 +517,7 @@
       "alcohol"
     ],
     "feature_count": 3,
-    "score": 0.2911447973185731,
+    "score": 0.29114479731857335,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -529,7 +529,7 @@
       "pH"
     ],
     "feature_count": 2,
-    "score": 0.03763331211048582,
+    "score": 0.03763331211048593,
     "status": "EXPLORADO"
   },
   {
@@ -541,7 +541,7 @@
       "pH"
     ],
     "feature_count": 2,
-    "score": 0.03763331211048582,
+    "score": 0.03763331211048593,
     "status": "EXPLORADO"
   },
   {
@@ -553,7 +553,7 @@
       "pH"
     ],
     "feature_count": 2,
-    "score": 0.03763331211048582,
+    "score": 0.03763331211048593,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -618,7 +618,7 @@
       "density"
     ],
     "feature_count": 2,
-    "score": 0.07144146004589602,
+    "score": 0.07144146004589635,
     "status": "EXPLORADO"
   },
   {
@@ -630,7 +630,7 @@
       "density"
     ],
     "feature_count": 2,
-    "score": 0.07144146004589602,
+    "score": 0.07144146004589635,
     "status": "EXPLORADO"
   },
   {
@@ -642,7 +642,7 @@
       "density"
     ],
     "feature_count": 2,
-    "score": 0.07144146004589602,
+    "score": 0.07144146004589635,
     "status": "EXPLORADO"
   },
   {
@@ -654,7 +654,7 @@
       "density"
     ],
     "feature_count": 2,
-    "score": 0.07144146004589602,
+    "score": 0.07144146004589635,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -680,7 +680,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.14874555759574093,
+    "score": 0.14874555759574137,
     "status": "EXPLORADO"
   },
   {
@@ -693,7 +693,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.14874555759574093,
+    "score": 0.14874555759574137,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -901,7 +901,7 @@
       "pH"
     ],
     "feature_count": 2,
-    "score": 0.006303364467163064,
+    "score": 0.006303364467162953,
     "status": "EXPLORADO"
   },
   {
@@ -913,7 +913,7 @@
       "pH"
     ],
     "feature_count": 2,
-    "score": 0.006303364467163064,
+    "score": 0.006303364467162953,
     "status": "EXPLORADO"
   },
   {
@@ -925,7 +925,7 @@
       "pH"
     ],
     "feature_count": 2,
-    "score": 0.006303364467163064,
+    "score": 0.006303364467162953,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -951,7 +951,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.07162563118228871,
+    "score": 0.07162563118228882,
     "status": "EXPLORADO"
   },
   {
@@ -964,7 +964,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.07162563118228871,
+    "score": 0.07162563118228882,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -1052,7 +1052,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.1230072474238817,
+    "score": 0.12300724742388236,
     "status": "EXPLORADO"
   },
   {
@@ -1065,7 +1065,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.1230072474238817,
+    "score": 0.12300724742388236,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -1092,7 +1092,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.056634423873226036,
+    "score": 0.0566344238732257,
     "status": "EXPLORADO"
   },
   {
@@ -1105,7 +1105,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.056634423873226036,
+    "score": 0.0566344238732257,
     "status": "EXPLORADO"
   },
   {
@@ -1118,7 +1118,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.056634423873226036,
+    "score": 0.0566344238732257,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -1219,7 +1219,7 @@
       "alcohol"
     ],
     "feature_count": 3,
-    "score": 0.24474410801367597,
+    "score": 0.2447441080136762,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -1232,7 +1232,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.10774248275771348,
+    "score": 0.10774248275771359,
     "status": "EXPLORADO"
   },
   {
@@ -1245,7 +1245,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.10774248275771348,
+    "score": 0.10774248275771359,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -1339,7 +1339,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.0749960898191242,
+    "score": 0.07499608981912431,
     "status": "EXPLORADO"
   },
   {
@@ -1352,7 +1352,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.0749960898191242,
+    "score": 0.07499608981912431,
     "status": "EXPLORADO"
   },
   {
@@ -1365,7 +1365,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.0749960898191242,
+    "score": 0.07499608981912431,
     "status": "EXPLORADO"
   },
   {
@@ -1378,7 +1378,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.0749960898191242,
+    "score": 0.07499608981912431,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -1595,7 +1595,7 @@
       "alcohol"
     ],
     "feature_count": 3,
-    "score": 0.26595559231936006,
+    "score": 0.26595559231936017,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -1709,7 +1709,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.15855295657387658,
+    "score": 0.1585529565738768,
     "status": "EXPLORADO"
   },
   {
@@ -1722,7 +1722,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.15855295657387658,
+    "score": 0.1585529565738768,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -1749,7 +1749,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.06708629674309496,
+    "score": 0.06708629674309441,
     "status": "EXPLORADO"
   },
   {
@@ -1762,7 +1762,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.06708629674309496,
+    "score": 0.06708629674309441,
     "status": "EXPLORADO"
   },
   {
@@ -1775,7 +1775,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.06708629674309496,
+    "score": 0.06708629674309441,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -1929,7 +1929,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.05756037712236928,
+    "score": 0.0575603771223695,
     "status": "EXPLORADO"
   },
   {
@@ -1942,7 +1942,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.05756037712236928,
+    "score": 0.0575603771223695,
     "status": "EXPLORADO"
   },
   {
@@ -1955,7 +1955,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.05756037712236928,
+    "score": 0.0575603771223695,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -2162,7 +2162,7 @@
       "alcohol"
     ],
     "feature_count": 3,
-    "score": 0.2370086017701859,
+    "score": 0.23700860177018612,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -2175,7 +2175,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.12893859043174483,
+    "score": 0.1289385904317446,
     "status": "EXPLORADO"
   },
   {
@@ -2188,7 +2188,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.12893859043174483,
+    "score": 0.1289385904317446,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -2282,7 +2282,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.054495636341978404,
+    "score": 0.054495636341978515,
     "status": "EXPLORADO"
   },
   {
@@ -2295,7 +2295,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.054495636341978404,
+    "score": 0.054495636341978515,
     "status": "EXPLORADO"
   },
   {
@@ -2308,7 +2308,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.054495636341978404,
+    "score": 0.054495636341978515,
     "status": "EXPLORADO"
   },
   {
@@ -2321,7 +2321,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.054495636341978404,
+    "score": 0.054495636341978515,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -2376,7 +2376,7 @@
       "total sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.05318441773172067,
+    "score": 0.05318441773172078,
     "status": "EXPLORADO"
   },
   {
@@ -2389,7 +2389,7 @@
       "total sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.05318441773172067,
+    "score": 0.05318441773172078,
     "status": "EXPLORADO"
   },
   {
@@ -2402,7 +2402,7 @@
       "total sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.05318441773172067,
+    "score": 0.05318441773172078,
     "status": "EXPLORADO"
   },
   {
@@ -2415,7 +2415,7 @@
       "total sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.05318441773172067,
+    "score": 0.05318441773172078,
     "status": "EXPLORADO"
   },
   {
@@ -2428,7 +2428,7 @@
       "total sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.05318441773172067,
+    "score": 0.05318441773172078,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -2621,7 +2621,7 @@
       "alcohol"
     ],
     "feature_count": 3,
-    "score": 0.2804873634842021,
+    "score": 0.2804873634842022,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -2633,7 +2633,7 @@
       "pH"
     ],
     "feature_count": 2,
-    "score": 0.003006576670311567,
+    "score": 0.003006576670311678,
     "status": "EXPLORADO"
   },
   {
@@ -2645,7 +2645,7 @@
       "pH"
     ],
     "feature_count": 2,
-    "score": 0.003006576670311567,
+    "score": 0.003006576670311678,
     "status": "EXPLORADO"
   },
   {
@@ -2657,7 +2657,7 @@
       "pH"
     ],
     "feature_count": 2,
-    "score": 0.003006576670311567,
+    "score": 0.003006576670311678,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -2771,7 +2771,7 @@
       "alcohol"
     ],
     "feature_count": 3,
-    "score": 0.2388327943990448,
+    "score": 0.23883279439904503,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -2824,7 +2824,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.05407059330250363,
+    "score": 0.054070593302503744,
     "status": "EXPLORADO"
   },
   {
@@ -2837,7 +2837,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.05407059330250363,
+    "score": 0.054070593302503744,
     "status": "EXPLORADO"
   },
   {
@@ -2850,7 +2850,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.05407059330250363,
+    "score": 0.054070593302503744,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -3237,7 +3237,7 @@
       "alcohol"
     ],
     "feature_count": 3,
-    "score": 0.23672905395018873,
+    "score": 0.23672905395018884,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -3451,7 +3451,7 @@
       "total sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.04249480924655269,
+    "score": 0.04249480924655258,
     "status": "EXPLORADO"
   },
   {
@@ -3464,7 +3464,7 @@
       "total sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.04249480924655269,
+    "score": 0.04249480924655258,
     "status": "EXPLORADO"
   },
   {
@@ -3477,7 +3477,7 @@
       "total sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.04249480924655269,
+    "score": 0.04249480924655258,
     "status": "EXPLORADO"
   },
   {
@@ -3490,7 +3490,7 @@
       "total sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.04249480924655269,
+    "score": 0.04249480924655258,
     "status": "EXPLORADO"
   },
   {
@@ -3503,7 +3503,7 @@
       "total sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.04249480924655269,
+    "score": 0.04249480924655258,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -3656,7 +3656,7 @@
       "alcohol"
     ],
     "feature_count": 3,
-    "score": 0.2353972689911764,
+    "score": 0.2353972689911762,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -3776,7 +3776,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.05249087006008879,
+    "score": 0.05249087006008901,
     "status": "EXPLORADO"
   },
   {
@@ -3789,7 +3789,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.05249087006008879,
+    "score": 0.05249087006008901,
     "status": "EXPLORADO"
   },
   {
@@ -3802,7 +3802,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.05249087006008879,
+    "score": 0.05249087006008901,
     "status": "EXPLORADO"
   },
   {
@@ -3815,7 +3815,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.05249087006008879,
+    "score": 0.05249087006008901,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -4237,7 +4237,7 @@
       "alcohol"
     ],
     "feature_count": 2,
-    "score": 0.27133759927809165,
+    "score": 0.27133759927809176,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -4375,7 +4375,7 @@
       "density"
     ],
     "feature_count": 2,
-    "score": 0.11669714805727471,
+    "score": 0.11669714805727482,
     "status": "EXPLORADO"
   },
   {
@@ -4387,7 +4387,7 @@
       "density"
     ],
     "feature_count": 2,
-    "score": 0.11669714805727471,
+    "score": 0.11669714805727482,
     "status": "EXPLORADO"
   },
   {
@@ -4399,7 +4399,7 @@
       "density"
     ],
     "feature_count": 2,
-    "score": 0.11669714805727471,
+    "score": 0.11669714805727482,
     "status": "EXPLORADO"
   },
   {
@@ -4411,7 +4411,7 @@
       "density"
     ],
     "feature_count": 2,
-    "score": 0.11669714805727471,
+    "score": 0.11669714805727482,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -4437,7 +4437,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.154926981443261,
+    "score": 0.1549269814432611,
     "status": "EXPLORADO"
   },
   {
@@ -4450,7 +4450,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.154926981443261,
+    "score": 0.1549269814432611,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -4604,7 +4604,7 @@
       "alcohol"
     ],
     "feature_count": 3,
-    "score": 0.2823729303297673,
+    "score": 0.2823729303297672,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -4903,7 +4903,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.09719470839422018,
+    "score": 0.09719470839421995,
     "status": "EXPLORADO"
   },
   {
@@ -4916,7 +4916,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.09719470839422018,
+    "score": 0.09719470839421995,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -5322,7 +5322,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.16334654018516825,
+    "score": 0.16334654018516803,
     "status": "EXPLORADO"
   },
   {
@@ -5335,7 +5335,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.16334654018516825,
+    "score": 0.16334654018516803,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -5791,7 +5791,7 @@
       "residual sugar"
     ],
     "feature_count": 2,
-    "score": 0.05842150135275859,
+    "score": 0.058421501352758365,
     "status": "EXPLORADO"
   },
   {
@@ -5803,7 +5803,7 @@
       "residual sugar"
     ],
     "feature_count": 2,
-    "score": 0.05842150135275859,
+    "score": 0.058421501352758365,
     "status": "EXPLORADO"
   },
   {
@@ -5815,7 +5815,7 @@
       "residual sugar"
     ],
     "feature_count": 2,
-    "score": 0.05842150135275859,
+    "score": 0.058421501352758365,
     "status": "EXPLORADO"
   },
   {
@@ -5827,7 +5827,7 @@
       "residual sugar"
     ],
     "feature_count": 2,
-    "score": 0.05842150135275859,
+    "score": 0.058421501352758365,
     "status": "EXPLORADO"
   },
   {
@@ -5839,7 +5839,7 @@
       "residual sugar"
     ],
     "feature_count": 2,
-    "score": 0.05842150135275859,
+    "score": 0.058421501352758365,
     "status": "EXPLORADO"
   },
   {
@@ -5851,7 +5851,7 @@
       "residual sugar"
     ],
     "feature_count": 2,
-    "score": 0.05842150135275859,
+    "score": 0.058421501352758365,
     "status": "EXPLORADO"
   },
   {
@@ -5863,7 +5863,7 @@
       "residual sugar"
     ],
     "feature_count": 2,
-    "score": 0.05842150135275859,
+    "score": 0.058421501352758365,
     "status": "EXPLORADO"
   },
   {
@@ -5875,7 +5875,7 @@
       "residual sugar"
     ],
     "feature_count": 2,
-    "score": 0.05842150135275859,
+    "score": 0.058421501352758365,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -5888,7 +5888,7 @@
       "alcohol"
     ],
     "feature_count": 3,
-    "score": 0.2728935031028624,
+    "score": 0.2728935031028621,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -5901,7 +5901,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.0937140264134304,
+    "score": 0.09371402641343052,
     "status": "EXPLORADO"
   },
   {
@@ -5914,7 +5914,7 @@
       "sulphates"
     ],
     "feature_count": 3,
-    "score": 0.0937140264134304,
+    "score": 0.09371402641343052,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -5941,7 +5941,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.0672513027871644,
+    "score": 0.06725130278716418,
     "status": "EXPLORADO"
   },
   {
@@ -5954,7 +5954,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.0672513027871644,
+    "score": 0.06725130278716418,
     "status": "EXPLORADO"
   },
   {
@@ -5967,7 +5967,7 @@
       "pH"
     ],
     "feature_count": 3,
-    "score": 0.0672513027871644,
+    "score": 0.06725130278716418,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -6008,7 +6008,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.11671265140958897,
+    "score": 0.11671265140958931,
     "status": "EXPLORADO"
   },
   {
@@ -6021,7 +6021,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.11671265140958897,
+    "score": 0.11671265140958931,
     "status": "EXPLORADO"
   },
   {
@@ -6034,7 +6034,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.11671265140958897,
+    "score": 0.11671265140958931,
     "status": "EXPLORADO"
   },
   {
@@ -6047,7 +6047,7 @@
       "density"
     ],
     "feature_count": 3,
-    "score": 0.11671265140958897,
+    "score": 0.11671265140958931,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -6223,7 +6223,7 @@
       "free sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.06058674602533842,
+    "score": 0.060586746025338534,
     "status": "EXPLORADO"
   },
   {
@@ -6236,7 +6236,7 @@
       "free sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.06058674602533842,
+    "score": 0.060586746025338534,
     "status": "EXPLORADO"
   },
   {
@@ -6249,7 +6249,7 @@
       "free sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.06058674602533842,
+    "score": 0.060586746025338534,
     "status": "EXPLORADO"
   },
   {
@@ -6262,7 +6262,7 @@
       "free sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.06058674602533842,
+    "score": 0.060586746025338534,
     "status": "EXPLORADO"
   },
   {
@@ -6275,7 +6275,7 @@
       "free sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.06058674602533842,
+    "score": 0.060586746025338534,
     "status": "EXPLORADO"
   },
   {
@@ -6288,7 +6288,7 @@
       "free sulfur dioxide"
     ],
     "feature_count": 3,
-    "score": 0.06058674602533842,
+    "score": 0.060586746025338534,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -6371,7 +6371,7 @@
       "chlorides"
     ],
     "feature_count": 3,
-    "score": 0.09457391713143026,
+    "score": 0.09457391713143004,
     "status": "EXPLORADO"
   },
   {
@@ -6384,7 +6384,7 @@
       "chlorides"
     ],
     "feature_count": 3,
-    "score": 0.09457391713143026,
+    "score": 0.09457391713143004,
     "status": "EXPLORADO"
   },
   {
@@ -6397,7 +6397,7 @@
       "chlorides"
     ],
     "feature_count": 3,
-    "score": 0.09457391713143026,
+    "score": 0.09457391713143004,
     "status": "EXPLORADO"
   },
   {
@@ -6410,7 +6410,7 @@
       "chlorides"
     ],
     "feature_count": 3,
-    "score": 0.09457391713143026,
+    "score": 0.09457391713143004,
     "status": "EXPLORADO"
   },
   {
@@ -6423,7 +6423,7 @@
       "chlorides"
     ],
     "feature_count": 3,
-    "score": 0.09457391713143026,
+    "score": 0.09457391713143004,
     "status": "EXPLORADO"
   },
   {
@@ -6436,7 +6436,7 @@
       "chlorides"
     ],
     "feature_count": 3,
-    "score": 0.09457391713143026,
+    "score": 0.09457391713143004,
     "status": "EXPLORADO"
   },
   {
@@ -6449,7 +6449,7 @@
       "chlorides"
     ],
     "feature_count": 3,
-    "score": 0.09457391713143026,
+    "score": 0.09457391713143004,
     "status": "FOLHA_INVALIDA"
   },
   {
@@ -6655,7 +6655,7 @@
       "alcohol"
     ],
     "feature_count": 2,
-    "score": 0.33447282205604667,
+    "score": 0.33447282205604656,
     "status": "SOLUCAO_OTIMA_ATUAL"
   },
   {
